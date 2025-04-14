@@ -6,8 +6,8 @@ export default function Navbar() {
       <Link href="/" className="text-2xl font-bold">chksupply</Link>
 
       <div className="flex gap-6 text-sm">
-        {/*<Link href="/dashboard" className="hover:text-gray-300">Dashboard</Link>*/}
-        {/*<Link href="/about" className="hover:text-gray-300">About</Link>*/}
+        <Link href="/dashboard" className="hover:text-gray-300">Dashboard</Link>
+        <Link href="/about" className="hover:text-gray-300">About</Link>
         <a href="https://github.com/saip007/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
           GitHub Stars
         </a>
