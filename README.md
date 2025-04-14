@@ -1,6 +1,6 @@
 # ChkSupply
 
-## Overview
+## About
 ChkSupply is a dashboard designed for monitoring and analyzing the security of third-party packages, GitHub Actions, and code editor extensions. It helps developers ensure the security and integrity of their software supply chain by providing insights and alerts on potential vulnerabilities and risks.
 
 ## Features
