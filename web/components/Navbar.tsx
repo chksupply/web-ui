@@ -5,16 +5,16 @@ export default function Navbar() {
     <nav className="w-full px-6 py-4 bg-gray-950 text-white flex justify-between items-center">
       <Link href="/" className="text-2xl font-bold">chksupply</Link>
 
-      <div className="flex gap-6 items-center text-sm">
-        <Link href="/dashboard" className="hover:text-gray-300">Dashboard</Link>
-        <Link href="/about" className="hover:text-gray-300">About</Link>
 
-        {/* 🔍 Search input */}
-        <input
+      <input
           type="text"
           placeholder="Search..."
           className="bg-gray-800 text-white text-sm px-3 py-1.5 rounded-lg border border-gray-700 focus:outline-none focus:ring focus:ring-blue-500"
         />
+        
+      <div className="flex gap-6 items-center text-sm">
+        <Link href="/dashboard" className="hover:text-gray-300">Dashboard</Link>
+        <Link href="/about" className="hover:text-gray-300">About</Link>
 
         <a
           href="https://github.com/chksupply/"
