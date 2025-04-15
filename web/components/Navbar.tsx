@@ -8,10 +8,10 @@ export default function Navbar() {
       <div className="flex gap-6 text-sm">
         <Link href="/dashboard" className="hover:text-gray-300">Dashboard</Link>
         <Link href="/about" className="hover:text-gray-300">About</Link>
-        <a href="https://github.com/saip007/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+        <a href="https://github.com/chksupply/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
           GitHub Stars
         </a>
-        <a  href="https://github.com/saip007/" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-white transition">
+        <a  href="https://github.com/chksupply/" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-white transition">
         Edit this page on GitHub →
         </a>
 
