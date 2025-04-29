@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export default function Navbar() {
-  return (
-    <nav className="w-full px-6 py-4 bg-gray-950 text-white flex justify-between items-center">
+    return (
+        <nav className="w-full px-6 py-4 bg-gray-950 text-white flex justify-between items-center">
       {/* Logo */}
       <Link href="/" className="text-2xl font-bold">
         chksupply
@@ -35,7 +35,7 @@ export default function Navbar() {
 
       {/* Right Navigation Links */}
       <div className="flex gap-6 items-center text-sm">
-        <Link href="/dashboard" className="hover:text-gray-300">
+        <Link href="/" className="hover:text-gray-300">
           Dashboard
         </Link>
         <Link href="/explore" className="hover:text-gray-300">
@@ -54,19 +54,11 @@ export default function Navbar() {
           href="https://github.com/chksupply/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-300"
+          className="text-gray-400 hover:text-white transition"
         >
           GitHub Stars
         </a>
-        <a
-          href="https://github.com/chksupply/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-400 hover:text-white transition"
-        >
-          Edit this page →
-        </a>
       </div>
     </nav>
-  );
+    );
 }
